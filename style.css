@@ -186,7 +186,7 @@ ul.topnav li.dropdownIcon{
 }
 
 /*########## mobile ######################"*/
-@media  screen and (max-width: 680px) {
+@media  screen and (max-width: 1080px) {
     ul.topnav li:not(:nth-child(1)){
         display: none;
     }
