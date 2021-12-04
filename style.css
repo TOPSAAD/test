@@ -224,13 +224,14 @@ ul.topnav li.dropdownIcon{
     }
 
 }
-@media screen and (max-width:900px){
+/*
+@media screen and (max-width:1080px){
     .col-3{
         width: 50%;
         margin: 0;
     }
-}
-@media  screen and (max-width: 500px) {
+}*/
+@media  screen and (max-width: 1080px) {
     .col-3{
         width: 100%;
         margin: 0;
@@ -255,12 +256,13 @@ h2.section2Header {
 div.box {
     text-align: center;
     margin: 24px;
+    
     background-color: white;
     box-shadow: 2px 3px 2px 3px rgba(0,0,0,.15),
     2px 3px 3px 3px rgba(0,0,0,.1);
     border-radius: 5%;
     overflow: hidden;
-    padding: 36px 24px 40px 24px;
+    padding: 36px 24px 40px 19px;
     
 
 }
@@ -273,12 +275,14 @@ div.box:hover a.product_picture{
 
 a.product_name {
     color:rgb(48, 48, 48);
+    font-size: 16px;
 }
 a.product_name:hover{
     color: #17a2b8;
 }
 a.product_picture{
     opacity: 1;
+    
 }
 a.product_picture:hover{
     opacity: .75;
@@ -347,4 +351,73 @@ p.delivery{
 }
 .tops{
     content: "\f102";
+}
+/* ******************all products section************/
+.div.container2{
+    width: 100%;
+    margin:auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+div.box2{
+    text-align: left;
+    margin: 24px;
+    
+    background-color: white;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,.15),
+    2px 3px 3px 3px rgba(0,0,0,.1);
+    border-radius: 3%;
+    overflow: hidden;
+    padding: 10px 24px 10px 19px;
+}
+a.product_name2{
+    font-size: 16px;
+    color:rgb(48, 48, 48);
+    display: block;
+}
+p.price2{
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(53, 169, 30);
+    display: inline;
+}
+p.old_price2{
+    font-size: 13px;
+    display: inline;
+}
+div.icon2{
+    position: relative;
+    width: 93%;
+    padding-left: 20px;
+}
+#product_2{
+    width: 93%;
+    padding-left: 20px;
+}
+button.buy_icon{
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    width: 35px;
+    height: 35px;
+    background-color: white ;
+    border: none;
+    border-radius: 5%;
+    color: black;
+    font-size: 16px;
+    display: none;
+}
+a.product_name2:hover{
+    color: #17a2b8;
+}
+div.box2:hover .buy_icon{
+    display: unset;
+    
+}
+div.box2:hover .product_picture{
+    opacity: .5;
+}
+button.buy_icon:hover{
+    background-color: #6fddee;;
 }
